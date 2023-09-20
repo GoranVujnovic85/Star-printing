@@ -37,7 +37,7 @@ int main()
     	{
     		for(int k = 0; k < number - i; k++)
     		{
-    			printf("%c", 32);
+    			printf(" ");
     		}
     		for(int j = 0; j <= i; j++)
     		{
@@ -50,7 +50,7 @@ int main()
     	{
     		for(int k = 0; k < number - i; k++)
     		{
-    			printf("%c", 32);
+    			printf(" ");
     		}
     		for(int j = 0; j <= i; j++)
     		{
@@ -60,6 +60,7 @@ int main()
     	}
 
      }
+    return 0;
  }
 
 
